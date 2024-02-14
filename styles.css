@@ -1,0 +1,17 @@
+p{
+    color: blue;
+    text-align: center;
+    font-size: larger;
+}
+h1,h2{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+.items{
+    color: blue;
+    font-size: larger;
+}
+.btn{
+    text-align: center;
+}
