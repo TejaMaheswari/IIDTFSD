@@ -1,17 +1,23 @@
-p{
-    color: blue;
-    text-align: center;
-    font-size: larger;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1,h2{
-    color: red;
-    text-align: center;
-    text-decoration: underline;
+
+caption{
+    background-color: #80B329;
+    color: white;
+    font-weight: bold;
 }
-.items{
-    color: blue;
-    font-size: larger;
+
+table,caption,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding-right: 30px;
 }
-.btn{
-    text-align: center;
+
+td:nth-child(even){
+    background-color: #E4FFB5;
+}
+
+td:nth-child(odd){
+    background-color: #EEFFD0;
 }
